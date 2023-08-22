@@ -1,9 +1,9 @@
 <script setup>
-import HomePage from './pages/HomePage.vue';
+import { HomePage } from "./pages";
 </script>
 
 <template>
   <main class="main">
-    <HomePage isRed title="Hello Props" />
+    <HomePage />
   </main>
 </template>
