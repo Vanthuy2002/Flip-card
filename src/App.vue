@@ -1,5 +1,5 @@
 <script setup>
-import { HomePage } from "./pages";
+import { HomePage } from './pages';
 </script>
 
 <template>
@@ -7,3 +7,5 @@ import { HomePage } from "./pages";
     <HomePage />
   </main>
 </template>
+
+<style scoped></style>

@@ -1,8 +1,7 @@
 <script setup>
-import { defineEmits } from "vue";
-import { modeGame } from "src/utils/constants";
+import { modeGame } from 'src/utils/constants';
 
-defineEmits(["on-start"]);
+defineEmits(['on-start']);
 </script>
 
 <template>
