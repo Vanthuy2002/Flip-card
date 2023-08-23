@@ -1,5 +1,7 @@
-<script setup></script>
+<script setup>
+import { CardFlip } from 'src/components/Card';
+</script>
 <template>
-  <h1>Actions screen here...</h1>
+  <CardFlip />
 </template>
 <style scoped></style>

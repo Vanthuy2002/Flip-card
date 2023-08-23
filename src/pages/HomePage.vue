@@ -10,10 +10,10 @@ const handleBeforeStart = ({ block }) => {
 </script>
 
 <template>
-  <main-screen
+  <MainScreen
     @on-start="handleBeforeStart"
     v-if="status === 'default'"
-  ></main-screen>
+  ></MainScreen>
   <ActionScreen v-if="status === 'ingame'" />
 </template>
 
